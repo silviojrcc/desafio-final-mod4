@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+} 
+/* INTRO */
+
+.welcome {
+  background-color: #13171c;
+  overflow: auto;
+  color: white;
+  padding: 70px 43px 169px;
+}
+@media (min-width: 960px){
+  .welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+.welcome__title {
+  font-size: 60px;
+  font-weight: 700;
+  /* padding: 0 43px; */
+  text-align: center;
+  margin: 0;
+}
+
+.welcome__image {
+    text-align: center;
+}
+
+.welcome__image img {
+    height: 211px;
+}
+
+.about-me {
+  overflow: auto;
+  background-color: #192130;
+  padding: 45px;
+  color: #eeeeeebf;
+}
+@media (min-width: 960px){
+  .about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 260px 0;
+  }
+}
+
+@media (min-width: 960px){
+  .about-me__text-container {
+    max-width: 389px;
+  }
+}
+
+.about-me__description {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.about-me__img {
+  width: 100%;
+}
+@media (min-width: 960px){
+  .about-me__img {
+    max-height: 415px;
+    max-width: 623px;
+  }
+}
+
+.my-services {
+  background-color: #13171c;
+  background-image: url("./images/background.doodle.png");
+  overflow: auto;
+  text-align: center;
+}
+
+.my-services__title {
+  color: rgba(238, 238, 238, 1);
+  font-size: 42px;
+  font-weight: 700;
+  padding-top: 84px;
+}
+
+.my-services__cards-container {
+  padding: 25px;
+}
+@media (min-width: 960px){
+  .my-services__cards-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}

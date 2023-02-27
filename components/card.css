@@ -1,0 +1,12 @@
+.my-services__card {
+  background: rgba(57, 62, 70, 0.5);
+  border-radius: 16px;
+  padding: 42px 29px;
+  color: #eee;
+  margin-bottom: 48px;
+}
+@media (min-width: 960px) {
+  .my-services__card {
+    max-width: 360px;
+  }
+}
