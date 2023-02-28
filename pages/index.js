@@ -5,12 +5,13 @@ function main() {
   const footerContainer = document.querySelector(".footer-container");
   footer(footerContainer);
   const contactMeContainer = document.querySelector(".contact-me-container");
-  contactMe(contactMeContainer);
-  const cardContainers = document.querySelectorAll(".my-services__card-container")
   
-  for (const cardContainer of cardContainers) {
-    card(cardContainer)
-  }
+  contactMe(contactMeContainer);
+  const cardContainers = document.querySelectorAll(".my-services__card-container");
+  
+  // for (const cardContainer of cardContainers) {
+  //   card(cardContainer)
+  // }
 
 }
 
