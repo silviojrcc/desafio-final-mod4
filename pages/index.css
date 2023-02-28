@@ -41,41 +41,7 @@ body {
     height: 211px;
 }
 
-.about-me {
-  overflow: auto;
-  background-color: #192130;
-  padding: 45px;
-  color: #eeeeeebf;
-}
-@media (min-width: 960px){
-  .about-me {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 260px 0;
-  }
-}
-
-@media (min-width: 960px){
-  .about-me__text-container {
-    max-width: 389px;
-  }
-}
-
-.about-me__description {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.about-me__img {
-  width: 100%;
-}
-@media (min-width: 960px){
-  .about-me__img {
-    max-height: 415px;
-    max-width: 623px;
-  }
-}
+/*  */
 
 .my-services {
   background-color: #13171c;
