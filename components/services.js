@@ -28,7 +28,6 @@ async function services(){
     const cardsContainer = document.querySelector(".my-services__cards-container");
     
     const services = await getServices();
-    console.log(services);
 
     services.forEach(service => {
         card(cardsContainer, service);
