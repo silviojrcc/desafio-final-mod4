@@ -9,6 +9,8 @@ function cargarComponentes() {
 
 function main() {
   cargarComponentes();
+  const infoAboutMe = document.querySelector(".about-me");
+  aboutMe(infoAboutMe);
 }
 
 main();
