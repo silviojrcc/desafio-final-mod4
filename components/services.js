@@ -1,6 +1,6 @@
 function getServices() {
     return fetch(
-      "https://cdn.contentful.com/spaces/lqx8cz94cbtd/environments/master/entries?access_token=8dG_y8BqLdSR9AEqZIGxd2twtwPRYZCNm8bhSMH4MEw&include=2"
+      "https://cdn.contentful.com/spaces/lqx8cz94cbtd/environments/master/entries?access_token=8dG_y8BqLdSR9AEqZIGxd2twtwPRYZCNm8bhSMH4MEw&content_type=work&include=2"
     )
       .then((res) => res.json())
       .then((json) => {
