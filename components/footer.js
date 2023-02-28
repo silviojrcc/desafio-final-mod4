@@ -9,11 +9,11 @@ function footer(el){
             <a href="./contact-me.html" class="footer__link"><span class="footer_link-ico"><i class="fa-solid fa-phone"></i></span>Contacto</a>
         </div>
         <div class="footer__socials">
-            <a href="" class="footer__social-link"><img src="./images/social-linkdin.png" alt=""></a>
-            <a href="" class="footer__social-link"><img src="./images/social-github.png" alt=""></a>
-            <a href="" class="footer__social-link"><img src="./images/social-twitter.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/silvioruiz/" class="footer__social-link"><img src="./images/social-linkdin.png" alt=""></a>
+            <a href="https://github.com/silviojrcc" class="footer__social-link"><img src="./images/social-github.png" alt=""></a>
+            <a href="https://twitter.com/fabiansatodev/status/1440094020416544769/photo/1" class="footer__social-link"><img src="./images/social-twitter.png" alt=""></a>
         </div>
-        <a href="" class="footer__copyright">©2022 - https://apx.school</a>
+        <a href="https://apx.school" class="footer__copyright">©2022 - https://apx.school</a>
     </footer>
     `
     el.appendChild(footerEl);
