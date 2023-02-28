@@ -16,7 +16,7 @@ function header(el) {
   const headerEl = document.createElement("div");
   headerEl.innerHTML = `
     <div class="header">
-            <div class="navbar__logo"><a href=""><h3>Mi logo</h3></a></div>
+            <div class="navbar__logo"><a href="./index.html"><h3>Mi logo</h3></a></div>
             <button class="navbar__button"><i class="fa-solid fa-bars"></i></button>
             <div class="header__hidden-links">
                 <div class="header__links-button">X</div>
